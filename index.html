@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>One Mind Js</title>
-  <link rel="stylesheet" href="/Assets/css/style.css">
-</head>
-<body>
-  <header>
-    <h1>¿Como te sientes hoy?</h1>
-  </header>
-  <main id="main">
-    <section id="contenido-1">
-      <img src="./Assets/img/" alt="Imagen de comillas" id="img-1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Mind Js</title>
 
-      <form id="form">
-        <input
-        id="sentimientos"
-        type="text"
-        placeholder="Cuentame como te sientes"
-        name="sentimiento"
-        required
-        >
-        <label for="emogi">
-          Me siento...
-        </label>
-        <button type="submit" id="feliz"></button>
-        <button type="submit" id="tiste"></button>
-        <button type="submit" id="tranquilo"></button>
-        <button type="submit" id="enojado"></button>
-        
-      </form>
+    <!--Mi hoja de estilo css-->
+    <link rel="stylesheet" href="/Assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>¿Como te sientes hoy?</h1>
+    </header>
+    <main id="main">
+      <section id="contenido-1" class="principal">
+        <img src="./Assets/img/" alt="Imagen de comillas" id="img-1" />
 
-    </section>
-  </main>
-
-</body>
+        <form id="form">
+          <input
+            id="sentimientos"
+            type="text"
+            placeholder="Cuentame como te sientes"
+            name="sentimiento"
+            required
+          />
+          <label for="emogi"> Me siento... </label>
+          <button type="submit" id="feliz">feliz</button>
+          <button type="submit" id="tiste">triste</button>
+          <button type="submit" id="tranquilo">tranquilo</button>
+          <button type="submit" id="enojado">enojado</button>
+        </form>
+      </section>
+    </main>
+    <!--Mi hoja de JS-->
+    <script src="./Assets/js/main.js" type="text/javascript"></script>
+  </body>
 </html>
