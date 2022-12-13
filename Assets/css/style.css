@@ -35,6 +35,16 @@ Colores de fondo de la seccion
 .feliz-s{
   background-color: rgb(179, 179, 48);
 }
+
+.tranquilo-s{
+  background-color: cyan;
+}
+
+.triste-s{
+  background-color: rgb(38, 38, 206);
+}
+
+
 .img{
   width: 3rem;
 }
